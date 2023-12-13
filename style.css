@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section starts */
+.head{
+    background-color: #3b5998;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    height: 82px;
+    width: 100%;
+}
+
+
+.facebook{
+    font-family: Arial Black, Helvetica, sans-serif;
+    float: left;
+    font-size: 40px;
+    margin: 25px auto auto 100px;
+    /* border: 2px solid; */
+}
+
+
+/* creating the div for form in header */
+
+
+.formDivLeft{
+    width: 200px;
+    float: left;
+    height: 55px;
+    padding-top: 18px;
+    margin-left: 400px;
+}
+
+
+.formDivLeft input{
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+.formDivRight{
+    width: 280px;
+    float: right;
+    height: 55px;
+    padding-top: 18px;
+    margin-right: 100px;
+}
+
+.formDivRight button{
+    margin-left: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formDivRight input{
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+.formDivRight a{
+    text-decoration: none;
+    color:bisque;
+    font-size: 10px;
+}
+
+.formDivRight a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.leftContainer{
+    width: 40%;
+    float: left;
+    margin: 90px auto auto 100px;
+
+}
+
+.leftContainer h1{
+    font-size: 30px;
+    font-family: Arial Black, Helvetica, sans-serif;
+
+}
+
+
+/* right container */
+.rightContainer{
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+    line-height: 0.5;
+}
+
+.rightContainer h1{
+    font-size: 40px;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.rightContainer input{
+    padding: 8px;
+    font-size: 20px;
+    /* width: 150px; */
+}
+
+
+.rightContainer select{
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.anchor01{
+    width: 200px;
+    height: 30px;
+    line-height: 1.25;
+    margin-right: 80px;
+    float: right;
+
+}
+
+.anchor01 a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.anchor01 a:hover{
+    text-decoration: underline;
+}
+
+.signUp{
+    width: 75%;
+    line-height: 1.25;
+    font-size: 13px;
+    color: gray;
+}
+
+.signUp a{
+    text-decoration: none;
+}
+
+.signUp a:hover{
+    text-decoration: underline;
+}
+
+.rightContainer button{
+    background-color: chocolate;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.rightContainer button:hover{
+    background-color: #3b5998;
+}
+
+.rightContainer hr{
+    width: 330px;
+    margin-top: 20px;
+    margin-right: 500px;
+
+}
+
+.createPage{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    width: 400px;
+    padding-top: 5px;
+}
+
+.createPage a{
+    text-decoration: none;
+}
+
+.createPage a:hover{
+    text-decoration: underline;
+
+}
+
+
+@media  screen and (max-width: 1283px) {
+    
+    /* header section in responsiveness */
+
+    .head{
+        background-color: #3b5998;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        height: 250px;
+        width: 100%;
+    }
+    
+    
+    .facebook{
+        font-family: Arial Black, Helvetica, sans-serif;
+        /* float: left; */
+        font-size: 40px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    
+    
+    .formDivLeft{
+        width: 20%;
+        /* float: left; */
+        height: 77px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    
+    
+    .formDivLeft input{
+        padding: 2px;
+        background-color: whitesmoke;
+    }
+
+    
+    .formDivRight{
+        width: 100%;
+        /* float: right; */
+        margin: 0;
+        /* border: 2px solid; */
+    }
+    
+    
+    
+
+    /* left container settings */
+    .leftContainer{
+        width:80%;
+        line-height: 1;
+        float: none;
+        margin: 0;
+        /* margin: 90px auto auto 100px; */
+    
+    }
+    
+    .leftContainer h1{
+        font-size: 20px;
+        font-family: Arial Black, Helvetica, sans-serif;
+    
+    }
+
+    /* left container settings end here*/
+    
+
+
+    /* right container settings */
+
+    .rightContainer{
+        float: none;
+        width: 80%;
+        /* margin-right: 50px; */
+        margin-top: 40px;
+        line-height: 0.5;
+    }
+    
+    .rightContainer h1{
+        font-size: 30px;
+        font-family: Arial Black, Helvetica, sans-serif;
+    }
+
+    .free{
+        line-height: 0.8;
+    }
+    
+    .rightContainer input{
+        padding: 1px;
+        font-size: 12px;
+        /* width: 150px; */
+    }
+    
+    
+    .rightContainer select{
+        border-radius: 6px;
+        padding: 1px;
+    }
+    
+    .anchor01{
+        width: 100%;
+        height: 30px;
+        line-height: 0.5;
+        margin: 0;
+        /* float: right;     */
+    }
+    
+    .anchor01 a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    
+    .anchor01 a:hover{
+        text-decoration: underline;
+    }
+
+    
+    
+    .signUp{
+        width: 75%;
+        line-height: 1.25;
+        font-size: 10px;
+        color: gray;
+    }
+    
+    .signUp a{
+        text-decoration: none;
+    }
+    
+    .signUp a:hover{
+        text-decoration: underline;
+    }
+    
+    .rightContainer button{
+        background-color: chocolate;
+        padding: 4px;
+        width: 100px;
+        font-size: 10px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .rightContainer button:hover{
+        background-color: #3b5998;
+    }
+    
+    .rightContainer hr{
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 500px;
+    
+    }
+    
+    .createPage{
+        font-size: 10px;
+        font-weight: bold;
+        color: gray;
+        width: 300px;
+        padding-top: 5px;
+        line-height: 1;
+    }
+
+    
+    .createPage a{
+        text-decoration: none;
+    }
+    
+    .createPage a:hover{
+        text-decoration: underline;
+    
+    }
+}
+
